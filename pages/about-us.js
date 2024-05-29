@@ -8,7 +8,7 @@ import Image from 'next/image'
 
 function about_us() {
   return (
-    <>
+    <div>
       <NavbarTwo />
       <Banner title="Who We Are" ctitle="" image="/images/about.webp" btitle="About Us" />
       <div>
@@ -70,7 +70,7 @@ function about_us() {
       </div>
 
       <Footer />
-    </>
+    </div>
   );
 }
 
